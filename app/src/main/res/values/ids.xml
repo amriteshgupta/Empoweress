@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="divider" type="id"></item>
+    <item name="btnSOS" type="id"></item>
+    <item name="etContact" type="id"></item>
+    <item name="btnSaveContact" type="id"></item>
+
+</resources>
