@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <group android:name="logo">
+        <path
+            android:name="circle"
+            android:fillColor="#FFFFFF"
+            android:pathData="M50,20 A30,30 0 1,1 50,80 A30,30 0 1,1 50,20z" />
+
+        <path
+            android:name="letter_e"
+            android:fillColor="#FF0000"
+            android:pathData="M40,40 L60,40 L60,45 L45,45 L45,50 L55,50 L55,55 L45,55 L45,60 L60,60 L60,65 L40,65 z" />
+    </group>
+</vector>
