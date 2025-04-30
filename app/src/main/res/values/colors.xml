@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="md_theme_primary">#6750A4</color>
+    <!-- Theme colors for both light and dark -->
+    <color name="md_theme_primary">#F06292</color>
     <color name="md_theme_onPrimary">#FFFFFF</color>
-    <color name="md_theme_primaryContainer">#EADDFF</color>
-    <color name="md_theme_onPrimaryContainer">#21005E</color>
-    <color name="md_theme_secondary">#9C4146</color>
+    <color name="md_theme_primaryContainer">#FFD6E0</color>
+    <color name="md_theme_onPrimaryContainer">#3B0013</color>
+    <color name="md_theme_secondary">#AB47BC</color>
     <color name="md_theme_onSecondary">#FFFFFF</color>
-    <color name="md_theme_secondaryContainer">#FFDAD9</color>
-    <color name="md_theme_onSecondaryContainer">#40000A</color>
-    <color name="md_theme_tertiary">#386A1F</color>
+    <color name="md_theme_secondaryContainer">#F3D9FA</color>
+    <color name="md_theme_onSecondaryContainer">#2A0033</color>
+    <color name="md_theme_tertiary">#42A5F5</color>
     <color name="md_theme_onTertiary">#FFFFFF</color>
-    <color name="md_theme_tertiaryContainer">#B8F397</color>
-    <color name="md_theme_onTertiaryContainer">#0C2000</color>
-    <color name="md_theme_background">#FFFBFF</color>
-    <color name="md_theme_onBackground">#1C1B1E</color>
-    <color name="md_theme_surface">#FFFBFF</color>
-    <color name="md_theme_onSurface">#1C1B1E</color>
-    <color name="md_theme_surfaceVariant">#E7E0EB</color>
-    <color name="md_theme_onSurfaceVariant">#49454E</color>
-    <color name="md_theme_outline">#7A757F</color>
+    <color name="md_theme_tertiaryContainer">#D0E4FF</color>
+    <color name="md_theme_onTertiaryContainer">#001E36</color>
+
+    <!-- Light theme specific -->
+    <color name="md_theme_light_background">#FFFBFF</color>
+    <color name="md_theme_light_onBackground">#201A1B</color>
+    <color name="md_theme_light_surface">#FFFBFF</color>
+    <color name="md_theme_light_onSurface">#201A1B</color>
+    <color name="md_theme_light_surfaceVariant">#F2DDE1</color>
+    <color name="md_theme_light_onSurfaceVariant">#514347</color>
+    <color name="md_theme_light_outline">#837377</color>
+
+    <!-- Dark theme specific - BRIGHTER COLORS FOR BETTER VISIBILITY -->
+    <color name="md_theme_background">#1A1A1A</color>
+    <color name="md_theme_onBackground">#EBEBEB</color>
+    <color name="md_theme_surface">#1A1A1A</color>
+    <color name="md_theme_onSurface">#EBEBEB</color> <!-- Much brighter than default -->
+    <color name="md_theme_surfaceVariant">#262626</color>
+    <color name="md_theme_onSurfaceVariant">#D9D9D9</color> <!-- Brightened -->
+    <color name="md_theme_outline">#B0B0B0</color> <!-- Brightened -->
 </resources>
